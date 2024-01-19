@@ -1,67 +1,82 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>gallery</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="ここにサイト説明を入れます">
-<meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
-<link rel="stylesheet" href="css/style.css">
-<!--[if lt IE 9]>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ここにサイト説明を入れます">
+  <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
 
+<head>
+  <style>
+    h1 {
+      font-size: 50px;
+    }
+  </style>
+</head>
+
 <body>
+  <div id="container">
+    <header>
+      <h1>Free World!!</h1>
+      <div id="container">
 
-<div id="container">
+        <nav id="menubar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="link.html">Link</a></li>
+          </ul>
+        </nav>
 
-<header>
-<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="SAMPLE SITE"></a></h1>
-</header>
+        <div id="contents">
 
-<nav id="menubar">
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-<li><a href="link.html">Link</a></li>
-</ul>
-</nav>
+          <section>
 
-<div id="contents">
+            <h2>GALLERY</h2>
 
-<section>
+            <div class="list">
+              <img src="images/countup.jpg">
+              <a href="https://play.google.com/store/apps/details?id=neo.dartsmemo">
+                <h4> Let's go countup</h4>
+              </a>
+              <p>ダーツのカウントアップというゲームの得点を記録するアプリです。</p>
+            </div>
 
-  <h2>GALLERY</h2>
-  
-  <div class="list">
-<img src="images/countup.jpg">
-<a href="https://play.google.com/store/apps/details?id=neo.dartsmemo"><h4>	Let's go countup</h4></a>
-<p>ダーツのカウントアップというゲームの得点を記録するアプリです。</p>
-</div>
+            <div class="list">
+              <img src="images/task.jpg">
+              <a href="https://play.google.com/store/apps/details?id=neo.todolist">
+                <h4>今日のタスクさん</h4>
+              </a>
+              <p>今日のやるべきことをメモできるアプリです。</p>
+            </div>
 
-<div class="list">
-  <img src="images/task.jpg">
-  <a href="https://play.google.com/store/apps/details?id=neo.todolist"><h4>今日のタスクさん</h4></a>
-  <p>今日のやるべきことをメモできるアプリです。</p>
-  </div>
+            <div class="list">
+              <img src="images/men.jpg" width="50" height="50">
+              <a href="https://play.google.com/store/apps/details?id=neo.interview">
+                <h4>面接訓練場</h4>
+              </a>
+              <p>面接の練習ができるアプリです。</p>
+            </div>
 
-<div class="list">
-  <img src="images/men.jpg" width="50" height="50">
-  <a href="https://play.google.com/store/apps/details?id=neo.interview"><h4>面接訓練場</h4></a>
-  <p>面接の練習ができるアプリです。</p>
-  </div>
+            <div class="list">
+              <img src="images/baib.jpg">
+              <a href="https://play.google.com/store/apps/details?id=neo.myalarm">
+                <h4>バイブで休憩Time</h4>
+              </a>
+              <p>指定した時間（分）が経つとバイブレーションで起こしてくれるアプリです。</p>
+            </div>
 
-<div class="list">
-  <img src="images/baib.jpg">
-  <a href="https://play.google.com/store/apps/details?id=neo.myalarm"><h4>バイブで休憩Time</h4></a>
-  <p>指定した時間（分）が経つとバイブレーションで起こしてくれるアプリです。</p>
-  </div>
-
-<!--
+            <!--
 <div class="list">
 <img src="images/sample1.jpg">
 <h4>見出しを入れます。</h4>
@@ -92,18 +107,19 @@
 </div>
 -->
 
-</section>
+          </section>
 
-</div>
-<!--/contents-->
+        </div>
+        <!--/contents-->
 
-<footer>
-<small>Copyright&copy; <a href="index.html">neoさんの日記</a> All Rights Reserved.</small>
-<span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
-</footer>
+        <footer>
+          <small>Copyright&copy; <a href="index.html">さしみ</a> All Rights Reserved.</small>
+          <span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+        </footer>
 
-</div>
-<!--/container-->
+      </div>
+      <!--/container-->
 
 </body>
+
 </html>
